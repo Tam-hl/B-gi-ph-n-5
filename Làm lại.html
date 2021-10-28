@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bố già</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body {           
+            background-size: cover;
+            margin: 0px;
+            width: 1000px;
+            margin: auto;
+        }
+        #menu{
+            width: 1000px;
+            height: 40px;
+            background:  rgba(17, 6, 6, 0.651);
+            margin: 0px auto;
+            font-family:'Times New Roman';
+        }
+        #chuchay{
+            background-color: rgba(14, 10, 10, 0.651);
+            display: block;
+            height: 100%;
+        }
+    
+
+        ul.root > li{
+            list-style: none;
+            float: left;
+            position: relative;
+        }
+        ul.root > li > a{
+            text-decoration: none;
+            color: white;
+            padding: 0px 15px 0px 15px ;
+            line-height: 40px;
+            display: block;
+           }
+        ul.root > li > a:hover{
+            background: rgb(104, 45, 182);
+            transition: ease-in 0.35s;
+        }
+        ul.submenu {
+            width: 150px;
+            background: rgb(24, 24, 24);
+            min-height: 100px ;
+            display: none;
+            position: absolute;
+        }
+        ul.submenu li{
+            list-style: none;
+        }
+        ul.submenu li a{
+            color: white;
+            text-decoration: none;
+            display: block;
+            line-height: 40px ;
+            text-indent: 10px;
+        }
+        ul.root > li:hover ul.submenu{
+            display: block;
+            transition: ease-out 0.15s;
+            -moz-transition: ease-out 0.15s;
+            -webkit-transition: ease-out 0.15s;
+        }
+        ul.submenu li a:hover{
+            background: rgb(166, 177, 70);
+            transition: ease-in 0.15s;
+            -moz-transition: ease-in 0.15s;
+            -webkit-transition: ease-in 0.15s;
+        }
+        .column {
+            float: left;
+            width: 40%;
+            padding: 40px 20px 30px;
+            font-family:'Times New Roman';
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        #tieude {
+            color: rgb(7, 4, 34);
+        }       
+        .noidung {
+            margin-left: 80px; 
+            color: rgb(7, 4, 34);
+            padding: 20px;
+        }
+        #noidungcon {
+            margin-left: 80px;
+            color:rgb(10, 0, 0);
+            margin-bottom: 20px;
+            font-family: 'Times New Roman';
+        }
+        #bottom{
+            width: 100%;
+            height: 3px;
+            background:rgb(100,93,93);
+        }
+
+        #footer {
+            background-color:rgb(100,93,93);
+            height: 150px;
+        }
+    
+        #cottrai {
+            float: left;
+            color: white;
+            width: 33.33%;
+            margin-top: 40px  ;
+            margin-left: 30px;
+            height: fit-content;
+        }
+        #cotgiua {
+            float: left;
+            color: white;
+            width: 30%;
+            margin-top: 40px  ;
+            height: fit-content;
+}
+        #cotphai {
+            float: left;
+            color: white;
+            width: 33.33%;
+            margin-top: 40px  ;
+            height: fit-content;
+}
+    </style>
+</head>
+<body>
+    <marquee direction="left" id="chuchay">
+        <p style="color: yellow; font-size: 16px; "> Bố Già phần 5 của Trấn Thành chính thức quay trở lại rạp vào ngày 12/03/2021
+        <a href="https://moveek.com/mua-ve/bo-gia/" style="color:white ;">Đặt vé tại đây!</a></p>
+    </marquee>
+    <div class="anhLogo"> 
+        <img src="xem-phim-bo-gia-700.jpg" style="width: 1000px;height: 300px; vertical-align: middle;"/>
+      </div>
+      <div id="menu">
+        <ul class="root">
+          <li><a href="Làm lại.html">TRANG CHỦ</a></li>
+          <li><a href="">THÔNG TIN</a>
+              <ul class="submenu">
+                <li><a href="Diễn viên chính.html">Diễn viên chính</a></li>
+                <li><a href="">Các phần trước</a></li>
+              </ul>
+          </li>
+          <li><a href="#">LIÊN HỆ</a>
+            <ul class="submenu">
+              <li><a href="https://moveek.com/mua-ve/bo-gia/">Đặt vé</a></li>
+              <li><a href="">Đường dây nóng </a></li>
+            </ul>
+          </li>
+    
+          <li><a href="#">REVIEW</a>
+            <ul class="submenu">
+              <li><a href="#">Teaser</a></li>
+              <li><a href="#">Trailer </a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="column">
+            <img src="Bo_gia_2021_ap_phich.jpg" alt="" style="width: 380px;height:450px; padding-left: 60px ;"/>            
+        </div>
+        <div class="column">
+            <h1 id="tieude">BỐ GIÀ PHẦN 5</h1>
+         <p>
+         <br>  <b>Đạo diễn:</b> Trấn Thành, Nguyễn Ngọc Đăng </br>
+         <br>  <b>Các diễn viên:</b> Trấn Thành, Ngọc Giàu, Tuấn Trần, Ngân Chi, Lê Giang, Hoàng Mèo, Lan Phương, La Thành, Lê Trang, Quốc Khánh, A Quay, Bảo Phúc
+         <p></p>
+         <br>  <b>Thời lượng:</b> 128 phút</br>
+         <br>  <b>Ngôn ngữ:</b> Tiếng Việt+ phụ đề tiếng Anh</br>
+         <br>  <b>Độ phân giải:</b> Full HD</br>
+         <br>  <b>Thể loại:</b>Thể loại: Phim gia đình</br>
+         <br>  <b>Hãng sản xuất:</b> Trấn Thành Town HKFilm Galaxy Studio </br>
+         <br><b>Kinh phí:</b>23 tỷ VNĐ </br>
+         <br> <b>Công chiếu:</b>  12 tháng 3, 2021(Việt Nam)</br>
+        </p>
+        </div>
+      </div>
+      <div id="bottom"> </div>
+      <div class="noidung" >
+          <h2><b>NỘI DUNG PHIM</b></h2></div>
+          <div id="noidungcon">
+               <p><i> Bố già là câu chuyện thường nhật về một gia đình ở một xóm lao động nghèo tại thành phố Hồ Chí Minh, ở đó có bộ tứ anh em Giàu, Sang, Phú, Quý. Ba Sang (Trấn Thành) là cha đơn thân, một mình nuôi hai con Quắn và Bù Tọt, trong đó đứa con trai đầu hơn 20 tuổi tên Quắn (Tuấn Trần) là một YouTuber kiếm tiền từ những lượt xem trên YouTube. Tính ông cần kiệm còn Quắn có phần bốc đồng, nông nổi, có thể mua chiếc quần hay đôi giày giá hơn 10 triệu đồng. Ông hay bao đồng, thường can thiệp vào chuyện láng giềng và cố gắng giúp đỡ tất cả mọi người xung quanh, còn Quắn thì cho rằng mỗi người có một cuộc sống riêng. 
+                   Dù yêu thương nhau nhưng khoảng cách giữa các thế hệ đã dẫn đến những mâu thuẫn cha con nảy sinh</i> 
+          </p>
+        </div>
+      
+      <div id="bottom"> </div>
+  <div class="noidung">
+  <h2 >
+        CÁC PHẦN TRƯỚC
+       </h2>
+       <br>
+       <a href="" title="Tập 1"><img src="Bo-Gia-Tran-Thanh1.jpg" style="width:200px;height: 250px"/></a>
+       <a href="" title="Tập 2"><img src="bo-gia-2-5597-1606902706.jpg" style="width:200px;height:250px"/></a>
+       <a href="" title="Tập 3"> <img src="Bố già phần 3.jpg" style="width:200px;height:250px"/></a>
+        <a href="" title="Tập 4"><img src="Bố già phần 4.jpg" style="width:200px;height:250px"/></a>
+       </br>
+    </div>
+    <footer id="footer">
+<div class="cot"> 
+  <div id="cottrai">
+  <br>BỐ GIÀ PHẦN 5 </br>
+  </p>
+  </div>
+    <div id="cotgiua">
+        Thông tin liên quan
+    <li><a href="" style="color: white ;">Các chính sách hỗ trợ</a></li>
+    <li><a href="" style="color: white ;">Điều khoản dịch vụ</a></li>
+    <li> <a href="" style="color: white ;">Đối tác</a></li>
+    <li> <a href=""style="color: white ;">Trợ giúp</a></li>
+    </div>
+
+  <div id="cotphai"> 
+    Liên hệ
+    <li><a href=""style="color: white ;"> Twitter</a></li>
+    <li><a href=""style="color: white ;">Facebook</a></li>
+    <li> Hotline: 190034567</li>
+  </div>
+  </div>
+
+    </footer>    
+</body>
+</html>
+
+</body>
+</html>
